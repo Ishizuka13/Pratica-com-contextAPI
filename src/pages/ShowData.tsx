@@ -11,7 +11,11 @@ export const ShowData = () => {
     return (
 
         <div>
-            tela de ShowData de {state.user.name} que tem {state.user.age} anos.
+            <h3>tela de ShowData</h3>
+
+                Nome: {state.user.name}<br/>
+                Idade: {state.user.age}
+
             <br/>
             <Link to = "/">Ir para SignUp</Link>
             
